@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package smd_a1;
+package smd_a1.question2;
 
 /**
  *
@@ -17,11 +17,11 @@ public class Faculty extends Staff {
     
     public String teach(String course)
     {
-        return null;
+        return "This faculty member teaches " + course;
     }
     
-    public String Assess(String StudenGrade)
+    public String Assess(String StudentGrade)
     {
-        return null;
+        return "Teacher assess the student grade to " + StudentGrade;
     }
 }

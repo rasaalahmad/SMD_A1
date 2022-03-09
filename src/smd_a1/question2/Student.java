@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package smd_a1;
+package smd_a1.question2;
 
 /**
  *
@@ -19,22 +19,22 @@ public class Student extends Person {
 
     @Override
     public String Register(int uid) {
-       return null;
+       return "Student registered with id " + uid;
     }
 
     @Override
     public String Perform(String duty) {
-        return null;
+        return "Student duty is to " + duty;
     }
 
     @Override
     public String include(String service) {
-       return null;
+       return "Student perform " + service; 
     }
 
     @Override
     public String like(String item) {
-       return null;
+       return "Student likes " + item;
     }
 
 
@@ -45,11 +45,11 @@ public class Student extends Person {
     
     public String Attend()
     {
-        return null;
+        return "Student attendace marked";
     }
     
     public String learn()
     {
-        return null;
+        return "Student learned topic successfully";
     }
 }

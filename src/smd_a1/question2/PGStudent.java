@@ -3,22 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package smd_a1;
+package smd_a1.question2;
 
 /**
  *
  * @author Win 10 Pro
  */
-public class Technician extends Staff {
-    public String techType;
+public class PGStudent extends Student {
+    public String rollNumber;
+    public String Specialization;
     
-    public String Maintain(String lab)
+    public void SubmitThesis()
     {
-        return null;
-    }
-    
-    public String install(String system)
-    {
-        return null;
+        System.out.println("Thesis submitted successfully");
     }
 }

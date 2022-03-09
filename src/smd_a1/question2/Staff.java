@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package smd_a1;
+package smd_a1.question2;
 
 /**
  *
@@ -20,27 +20,27 @@ public class Staff extends Person {
     
     @Override
     public String Register(int uid) {
-       return null;
+        return "Staff registered successfully with id " + uid;
     }
 
     @Override
     public String Perform(String duty) {
-        return null;
+        return "This employ perform " + duty + " task";
     }
 
     @Override
     public String include(String service) {
-       return null;
+       return "Services for this staff members are " + service;
     }
 
     @Override
     public String like(String item) {
-       return null;
+       return "Staff member likes " + item;
     }
     
     public String Attend(String duty)
     {
-        return null;
+        return "Duty for this employee is " + duty;
     }
     
     public float getSalary()
@@ -50,6 +50,6 @@ public class Staff extends Person {
     
     public String getPromotion()
     {
-        return null;
+        return "The staff member is now promoted";
     }
 }
